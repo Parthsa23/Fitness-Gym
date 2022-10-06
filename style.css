@@ -85,7 +85,7 @@ body{
 }
 .container {
     /* border: 2px solid white; */
-    margin: 76px 80px;
+    margin: -62px -17px;
     padding: 70px;
     width: 33%;
     border-radius: 28px;
@@ -113,6 +113,14 @@ body{
 }
 .container button {
     display: block;
-    width: 74%;
+    width: 50%;
     margin: 20px auto;
+}
+.quote{
+text-align: right;
+/* border: 2px solid red; */
+display:grid;
+padding: 40px 30px;
+font-style: italic;
+
 }
