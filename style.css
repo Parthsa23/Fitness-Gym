@@ -1,0 +1,118 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('body.avif');
+    height:900px;
+    color:white;
+    /* width:100%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Baloo Bhai', cursive;
+    
+    
+}
+.left{
+    /* border: 2px solid rgb(122, 7, 7); */
+    display: inline-block;
+    position: absolute;
+    left: 3px;
+    top: 6px;
+    
+
+}
+.left img {
+    width: 136px;
+    filter: invert(100%);
+}
+.left div{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: auto;
+}
+.mid{
+    /* border: 2px solid rgb(185, 17, 17); */
+    display:block;
+    width:36%;
+    margin : 29px auto;
+
+
+}
+.right{
+    /* border: 2px solid rgb(11, 6, 109); */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top :20px;
+    
+
+
+}
+
+.navbar{
+    display:inline-block;
+
+}
+.navbar li{
+    display:inline-block;
+    font-size: 25px;
+}
+.navbar li a {
+    color:white;
+    text-decoration:none;
+    /* padding:px ; */
+    padding:35px 20px;
+
+}
+.navbar li a:hover, .navbar li a:active {
+   text-decoration: underline;
+   color: grey;
+
+}
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: grey;
+}
+.container {
+    /* border: 2px solid white; */
+    margin: 76px 80px;
+    padding: 70px;
+    width: 33%;
+    border-radius: 28px;
+    /* background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+} 
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: auto;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+.container h1{
+    /* color: rgb(134, 130, 130); */
+    text-align: center;
+    /* background-color: white; */
+    
+    
+}
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
